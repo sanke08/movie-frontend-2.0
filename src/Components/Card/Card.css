@@ -1,9 +1,8 @@
 .card {
-    width: 18rem;
-    height: 100%;
     border: 0.5px solid rgba(128, 128, 128, 0.332);
     transition: all 0.4s ease-in-out;
     cursor: pointer;
+    aspect-ratio: 16/9;
 }
 .card:hover{
     transform: scale(1.03);
@@ -12,11 +11,9 @@
 .card-img {
      background-color: gray;
     height: 10.23rem;
-    object-fit: contain;
-    width: 100%;
     display: flex;
     justify-content: center;
-
+    aspect-ratio: 16/9;
 }
 
 .card-info {
