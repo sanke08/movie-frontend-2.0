@@ -12,7 +12,7 @@
 .card-img {
     background-color: gray;
     height: 10.23rem;
-    object-fit: contain;
+    object-fit: cover;
     display: flex;
     justify-content: center;
 
