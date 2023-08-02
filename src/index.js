@@ -10,10 +10,7 @@ const root = ReactDOM.createRoot(container);
 
 root.render(
   <Provider store={store}>
-    <ColorModeScript />
-    <ChakraProvider >
       <App />
-    </ChakraProvider >
   </Provider>
 );
 

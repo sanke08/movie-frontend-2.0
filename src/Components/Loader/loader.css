@@ -1,0 +1,28 @@
+.main {
+    height: 60vh;
+    width: 88vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main>div {
+    width: 5rem;
+    height: 5rem;
+    border-bottom: 1.5px solid white;
+    border-radius: 50%;
+    animation: rotate 800ms linear infinite;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@media screen and (width<415px) {
+    .main{
+        width: 80vw;
+    }
+}

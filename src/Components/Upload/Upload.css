@@ -1,0 +1,66 @@
+.upload-main{
+    width: 100%;
+}
+.upload {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    /* background-color: red; */
+}
+.uploadtitle{
+    margin: 2vw;
+}
+.upload-container{
+    border: 1px solid white;
+}
+.upload-input{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+    width: 20rem;
+}
+.upload-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem 1.5vmax;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+    font-size: 1vmax;
+    background-color: rgba(255, 0, 0, 0.451);
+}
+.upload-btn:hover{
+    background-color: rgba(255, 0, 0, 0.71);
+}
+.upload-inp{
+    height: 2rem;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 0 1rem;
+    transition: all 0.4s ease-in-out;
+}
+.upload-inp:hover{
+    border-color: rgb(71, 13, 13);
+}
+.nav{
+    margin: 1rem;
+}
+@media screen and (415px<width<700px) {
+    .upload-input{
+        width: 40vw;
+    }
+}
+@media screen and (415px>width) {
+    .upload{
+        width: 84vw;
+        height: 70vh;
+        /* background-color: red; */
+    }
+    .upload-input{
+        width: 55vw;
+    }
+}

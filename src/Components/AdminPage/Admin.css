@@ -1,0 +1,112 @@
+.admin {
+    width: 100%;
+    height: 100%;
+}
+
+.admin-container {
+    display: flex;
+}
+
+.admin-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem 1.5vmax;
+    cursor: pointer;
+    border: 1px solid rgb(104, 21, 21);
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+    font-size: 1vmax;
+    margin-left: 3vw;
+}
+
+.admin-btn:hover {
+    background-color: rgba(255, 0, 0, 0.451);
+}
+
+
+
+.admin-container {
+    position: sticky;
+    top: 2.55rem;
+    padding: 1rem;
+}
+
+.admin-information {
+    width: 100%;
+    border-bottom: 0.5px solid rgb(43, 42, 42);
+}
+
+.admin-info {
+    padding: 2rem;
+}
+
+.circle {
+    padding: 2rem;
+    width: max-content;
+    background-color: rgb(84, 10, 10);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle>h3 {
+    background-color: transparent;
+    display: flex;
+    gap: 5px;
+}
+.circle>h3>p{
+    background-color: transparent;
+}
+.admincircle {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.admin-videoinfo {
+    width: 100%;
+
+}
+.admin-videoinfo-list{
+    display: flex;
+    justify-content: center;
+}
+.admin-videocard-container {
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 0.3rem;
+    justify-content: space-between;
+}
+.serach{
+    width: 50vw;
+}
+.serach>div{
+    padding: 1rem;
+}
+
+@media screen and (width<860px) {
+    .admin-videocard-container{
+        width: 84vw;
+    }
+    .admin-information{
+        width: 84vw;
+    }
+    .admin{
+        width: 84vw;
+    }
+    .circle>h3{
+        font: 100 0.8rem normal;
+    }
+    .circle{
+        padding: 1rem;
+    }
+    .admincircle{
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+    }
+}

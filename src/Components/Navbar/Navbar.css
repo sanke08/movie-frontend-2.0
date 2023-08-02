@@ -1,0 +1,59 @@
+.navbar {
+    height: 2.5rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    border-bottom: 0.01rem solid rgba(255, 0, 0, 0.274);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 0.2rem 0;
+}
+
+.navbar>h2 {
+    margin-left: 2vw;
+    color: red;
+}
+
+.navbar-container {
+    height: 2.5rem;
+    padding: 0 2vmax;
+    width: 30vmax;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.inp {
+    height: 2rem;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 0 1vmax;
+    width: 20vmax;
+    transition: all 0.4s ease-in-out;
+    
+}
+
+.inp:hover {
+    border: 1px solid rgba(255, 0, 0, 0.566);
+}
+
+.inp:active {
+    border: 2px solid rgba(255, 0, 0, 0.566);
+}
+
+.navbar-svg>svg {
+    cursor: pointer;
+}
+
+@media screen and (width<414px) {
+    .navbar>h2 {
+        font: 900 1rem normal;
+    }
+    .navbar{
+        width: 100%;
+    }
+}

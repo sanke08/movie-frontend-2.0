@@ -1,0 +1,38 @@
+.home {
+    /* background-color: red; */
+    width: 88vw;
+}
+
+.home-container {
+    display: flex;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 1vw;
+    padding: 2vw;
+}
+
+.pg-btn {
+    margin: 1rem;
+    cursor: pointer;
+    width: 5vmax;
+    background-color: gray;
+    padding: 0.3rem 1vw;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.pg-btn:hover {
+    background-color: red;
+}
+
+@media screen and (max-width:414px) {
+    .home{
+        padding: 0.8rem 0;
+    }
+}

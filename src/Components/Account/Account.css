@@ -1,0 +1,51 @@
+.account-btn {
+    right: 0;
+    position: absolute;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vmax;
+    padding: 0.6rem 1vmax;
+    width: fit-content;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+    font-size: 1vmax;
+}
+
+.account-btn:hover {
+    background-color: red;
+    color: black;
+}
+
+.account {
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.account-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: max-content;
+    /* background-color: red; */
+}
+
+.account-avatar {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.account-info {
+    width: 50%;
+    display: flex;
+    margin-left: 1rem;
+    flex-direction: column;
+    justify-content: center;
+}

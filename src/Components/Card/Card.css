@@ -1,0 +1,42 @@
+.card {
+    width: 18rem;
+    height: 100%;
+    border: 0.5px solid rgba(128, 128, 128, 0.332);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.03);
+    border: none;
+} 
+.card-img {
+    background-color: gray;
+    height: 10.23rem;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-info {
+    width: 18rem;  
+}
+
+
+.card-info>p ,.card-info>h2{
+    background-color: rgba(128, 128, 128, 0.344);
+    height: 100%;
+    padding: 0.3rem 0.2rem;
+    
+   
+}
+.card-info>p{
+    display: flex;
+    gap: 1rem;
+}
+.card-info>p>p{
+    background-color:transparent;
+    font: 100 0.7rem normal;
+    opacity: 0.6;
+    
+}

@@ -1,0 +1,77 @@
+.menu {
+    width: 11vw;
+    height:90vh;
+    border-right: 1px solid gray;
+    position: sticky;
+    top: 2.6rem;
+
+}
+
+.menu-name {
+    padding: 1vw 1.5vmax;
+    font: bolder 1.5rem normal;
+}
+
+.menu-navigate {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 100%;
+    gap: 1vw;
+
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 1vmax;
+    padding: 0.6rem 0.3vmax;
+    width: 10vw;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+    font-size: 1vmax;
+
+}
+
+.btn>svg {
+    background-color: transparent;
+
+}
+
+.btn:hover {
+    background-color: red;
+}
+
+.btn:active {
+
+    background-color: rgb(112, 36, 36);
+}
+
+
+@media screen and (max-width :414px) {
+    .menu {
+        width: 15vw;
+        height: 100vh;
+    }
+
+    .btn {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+}
+
+@media screen and (415px <width <730px) {
+    .menu {
+        width: 10rem;
+    }
+
+    .btn {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+}

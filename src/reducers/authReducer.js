@@ -8,6 +8,7 @@ export const authReducer = (state = { user: {} }, action) => {
         case LOAD_REQUEST:
             return {
                 loading: true,
+                
             }
         case LOGIN_SUCCESS:
         case REGISTER_SUCCESS:
@@ -33,6 +34,6 @@ export const authReducer = (state = { user: {} }, action) => {
                 error: null
             }
         default:
-            return { ...state }
+            return {...state} 
     }
 }
