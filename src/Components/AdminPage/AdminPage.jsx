@@ -112,7 +112,7 @@ export default function AdminPage() {
 
                     <div className="admin-videoinfo-list">
                         <div className="admin-videocard-container">
-                            {videos.length > 0 ? videos.map((item, i) => {
+                            {videos && videos.length > 0 ? videos.map((item, i) => {
                                 return (
                                     <>
                                         <VideoCardList item={item} i={i} />
