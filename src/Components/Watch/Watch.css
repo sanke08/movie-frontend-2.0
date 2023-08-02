@@ -4,7 +4,7 @@
     flex-direction: column;
 }
 .video{
-    object-fit: contain;
+    object-fit: cover;
     height: 30vw;
 }
 .video-info{
