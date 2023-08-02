@@ -22,7 +22,7 @@ export default function Card({ item }) {
             <Link to={`/watch/${item._id}`}>
                 <div className="card">
                     <div className="card-container">
-                        <img src={img} className='card-img' alt="" />
+                        <img src={item.thumbnailUrl} className='card-img' alt="" />
                     </div>
                     <div className="blur">
 
