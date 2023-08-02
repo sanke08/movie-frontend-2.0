@@ -40,7 +40,7 @@ export default function SignIn() {
             {loading ? <Loader /> :
                 <div className="watch">
                     <div>
-                        <video src={videosmpl} className="video" controls ></video>
+                        <video src={videoUrl} className="video" controls ></video>
                     </div>
                     <div className="video-info">
                         <h2>
