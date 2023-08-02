@@ -10,10 +10,10 @@
     border: none;
 } 
 .card-img {
-    background-color: gray;
+     background-color: gray;
     height: 10.23rem;
-    width:100%
-    object-fit: fill;
+    object-fit: contain;
+    width: 100%;
     display: flex;
     justify-content: center;
 
