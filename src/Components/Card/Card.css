@@ -1,4 +1,6 @@
 .card {
+    /* width: 18rem; */
+    /* height: 100%; */
     border: 0.5px solid rgba(128, 128, 128, 0.332);
     transition: all 0.4s ease-in-out;
     cursor: pointer;
@@ -9,15 +11,19 @@
     border: none;
 } 
 .card-img {
-     background-color: gray;
+    background-color: gray;
     height: 10.23rem;
+    /* object-fit: contain; */
+    /* width: 100%; */
     display: flex;
     justify-content: center;
     aspect-ratio: 16/9;
+    
 }
 
 .card-info {
-    width: 100%;
+    width: 100%;  
+    
 }
 
 
@@ -37,4 +43,13 @@
     font: 100 0.7rem normal;
     opacity: 0.6;
     
+}
+
+@media screen and (width<414px) {
+    .card{
+        width: 60vw;
+    }
+    .card-img{
+        width: 100%;
+    }
 }
