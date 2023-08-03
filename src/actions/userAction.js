@@ -7,7 +7,7 @@ import { DELETE_USER_FAIL, DELETE_USER_SUCCESS, GET_USERS_FAIL, GET_USERS_REQUES
 export const getUsers = () => async (dispatch) => {
     try {
         dispatch({ type: GET_USERS_REQUEST })
-        const { data } = await axios.get(`https://movie-api-plum.vercel.app/api/user/getAllUsers`)
+        const { data } = await axios.get(`https://movie-api-orcin-one.vercel.app/api/user/getAllUsers`)
         dispatch({ type: GET_USERS_SUCCESS, payload: data })
     }
     catch (error) {
